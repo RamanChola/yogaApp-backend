@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const dotenv = require("dotenv");
 dotenv.config();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 const users = require("./routes/users");
 const data = require("./routes/data");
 const db = require("./db");
